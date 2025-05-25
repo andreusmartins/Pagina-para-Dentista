@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Clínica Odontológica especializada em tratamentos estéticos e reabilitação oral. Agende sua avaliação gratuita!">
+    <meta name="keywords" content="dentista, odontologia, clareamento dental, implante, ortodontia">
+    <title>DentalCare | Sorrisos Perfeitos e Saudáveis</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./Imagens/clinica-dental.jpg" alt="DentalCare" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary" href="#agendamento">Agendar Consulta</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Seu sorriso perfeito começa aqui</h1>
+                    <p class="lead mb-5">Tratamentos odontológicos personalizados com tecnologia de ponta e equipe
+                        especializada.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#agendamento" class="btn btn-primary btn-lg">Agendar Consulta</a>
+                        <a href="#servicos" class="btn btn-outline-light btn-lg">Nossos Serviços</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="./assets/hero-dentista.png" alt="Dentista atendendo paciente" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Diferenciais -->
+    <section class="diferenciais py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="diferencial-card text-center p-4">
+                        <div class="icon-box mb-3">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <h3>Tecnologia Avançada</h3>
+                        <p>Equipamentos modernos para diagnósticos precisos e tratamentos eficazes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="diferencial-card text-center p-4">
+                        <div class="icon-box mb-3">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Especialistas Qualificados</h3>
+                        <p>Equipe de dentistas especializados em diversas áreas da odontologia.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="diferencial-card text-center p-4">
+                        <div class="icon-box mb-3">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Atendimento Humanizado</h3>
+                        <p>Cuidamos da sua saúde bucal com carinho e atenção individualizada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="display-5 fw-bold">Nossos Serviços Odontológicos</h2>
+                <p class="lead">Oferecemos tratamentos completos para todas as necessidades da sua saúde bucal</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <img src="./Imagens/clareamento.jpg" class="card-img-top" alt="Clareamento Dental">
+                        <div class="card-body">
+                            <h3>Clareamento Dental</h3>
+                            <p>Tratamento eficaz para remover manchas e deixar seus dentes mais brancos e brilhantes.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <img src="./Imagens/Dentistas-Paciente.jpg" class="card-img-top" alt="Ortodontia">
+                        <div class="card-body">
+                            <h3>Ortodontia</h3>
+                            <p>Aparelhos fixos e móveis para corrigir a posição dos dentes e melhorar sua mordida.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <img src=".//Imagens/Implante.jpg" class="card-img-top" alt="Implante Dentário">
+                        <div class="card-body">
+                            <h3>Implante Dentário</h3>
+                            <p>Solução definitiva para repor dentes perdidos, com alta taxa de sucesso e naturalidade.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <img src=".//Imagens/Dentista-Vendo-denti.jpg" class="card-img-top" alt="Restauração">
+                        <div class="card-body">
+                            <h3>Restauração</h3>
+                            <p>Tratamento de cáries e reconstrução de dentes danificados com materiais de alta
+                                qualidade.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <img src="./Imagens/Protese.jpg" class="card-img-top" alt="Prótese Dentária">
+                        <div class="card-body">
+                            <h3>Prótese Dentária</h3>
+                            <p>Soluções personalizadas para repor dentes ausentes, com conforto e estética natural.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <img src="./Imagens/limpeza.jpg" class="card-img-top" alt="Limpeza Profissional">
+                        <div class="card-body">
+                            <h3>Limpeza Profissional</h3>
+                            <p>Remoção de tártaro e placa bacteriana para prevenir cáries e doenças gengivais.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="#contato" class="btn btn-primary btn-lg">Fale com um Especialista</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="./Imagens/clinica-dental.jpg" alt="Nossa Clínica" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">Sobre a DentalCare</h2>
+                    <p class="lead">Há mais de 15 anos transformando sorrisos e melhorando a qualidade de vida de nossos
+                        pacientes.</p>
+                    <p>Nossa clínica odontológica foi fundada com o objetivo de oferecer tratamentos dentários de
+                        excelência, combinando tecnologia avançada, profissionais qualificados e um atendimento
+                        humanizado.</p>
+
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box-sm me-3">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <span>Equipe Especializada</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box-sm me-3">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <span>Ambiente Acolhedor</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box-sm me-3">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <span>Tecnologia de Ponta</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-box-sm me-3">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <span>Material de Qualidade</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#equipe" class="btn btn-outline-primary mt-3">Conheça nossa equipe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estatísticas -->
+    <section class="stats-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <h3 class="display-4 fw-bold" data-counter="5000">0</h3>
+                        <p>Pacientes Atendidos</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-item">
+                        <h3 class="display-4 fw-bold" data-counter="15">0</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="display-4 fw-bold" data-counter="100">0</h3>
+                        <p>Tratamentos Diferentes</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="display-4 fw-bold" data-counter="98">0</h3>
+                        <p>% de Satisfação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="equipe" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="display-5 fw-bold">Nossa Equipe de Especialistas</h2>
+                <p class="lead">Profissionais altamente qualificados dedicados ao seu sorriso</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card text-center">
+                        <img src="./Imagens/Equipe.jpg" class="rounded-circle mb-3" alt="Dr. João Silva">
+                        <h3>Dr. João Silva</h3>
+                        <p class="text-primary">Ortodontista</p>
+                        <p>Especialista em alinhamento dental e correção de mordida.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card text-center">
+                        <img src="./Imagens/dentista-2.jpg" class="rounded-circle mb-3" alt="Dra. Maria Santos">
+                        <h3>Dra. Maria Santos</h3>
+                        <p class="text-primary">Implantodontista</p>
+                        <p>Especialista em reabilitação oral com implantes dentários.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card text-center">
+                        <img src="./Imagens/dentista-3.jpg" class="rounded-circle mb-3" alt="Dra. Ana Oliveira">
+                        <h3>Dra. Ana Oliveira</h3>
+                        <p class="text-primary">Endodontista</p>
+                        <p>Especialista em tratamento de canal e dor dental.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card text-center">
+                        <img src="./Imagens/Equipe2.jpg" class="rounded-circle mb-3" alt="Dr. Carlos Mendes">
+                        <h3>Dr. Carlos Mendes</h3>
+                        <p class="text-primary">Periodontista</p>
+                        <p>Especialista em tratamento gengival e implantes.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="display-5 fw-bold">O que nossos pacientes dizem</h2>
+                <p class="lead">Depoimentos de quem já transformou seu sorriso conosco</p>
+            </div>
+
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="rating mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Fiz meu tratamento de clareamento na DentalCare e fiquei
+                                    maravilhada com o resultado! A equipe é super atenciosa e profissional. Recomendo
+                                    muito!"</p>
+                                <div class="testimonial-author">
+                                    <img src="./Imagens/Feedback.jpg" class="rounded-circle" alt="Juliana Almeida">
+                                    <div>
+                                        <h5>Juliana Almeida</h5>
+                                        <p>Paciente de Clareamento</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="rating mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Depois de anos com vergonha do meu sorriso, coloquei
+                                    aparelho na DentalCare e hoje tenho um sorriso que amo! O Dr. João é excelente
+                                    profissional."</p>
+                                <div class="testimonial-author">
+                                    <img src="./Imagens/Feedback2.jpg" class="rounded-circle" alt="Marcos Ribeiro">
+                                    <div>
+                                        <h5>Marcos Ribeiro</h5>
+                                        <p>Paciente de Ortodontia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="rating mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"Fiz implante na DentalCare e foi a melhor decisão que
+                                    tomei. A Dra. Maria foi extremamente cuidadosa e o resultado ficou perfeito, muito
+                                    natural!"</p>
+                                <div class="testimonial-author">
+                                    <img src="./Imagens/Feedback3.jpg" class="rounded-circle" alt="Patrícia Souza">
+                                    <div>
+                                        <h5>Patrícia Souza</h5>
+                                        <p>Paciente de Implante</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="display-5 fw-bold">Perguntas Frequentes</h2>
+                <p class="lead">Tire suas dúvidas sobre tratamentos odontológicos</p>
+            </div>
+
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Quanto tempo dura um tratamento de clareamento dental?
+                        </button>
+                    </h3>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            O tempo de tratamento varia conforme o método utilizado e a condição inicial dos dentes. Em
+                            média, o clareamento em consultório pode ser realizado em 1-2 sessões, enquanto o caseiro
+                            pode levar de 2 a 4 semanas. Nossos dentistas avaliam cada caso individualmente para indicar
+                            o melhor protocolo.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            O implante dentário dói?
+                        </button>
+                    </h3>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            O procedimento de colocação do implante é realizado com anestesia local, portanto o paciente
+                            não sente dor durante a cirurgia. No pós-operatório pode haver algum desconforto, que é
+                            controlado com medicação prescrita pelo dentista. A maioria dos pacientes relata que a dor é
+                            bem menor do que imaginavam.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Qual a diferença entre aparelho fixo e alinhador invisível?
+                        </button>
+                    </h3>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            O aparelho fixo tradicional utiliza braquetes colados aos dentes e fios metálicos para
+                            realizar a movimentação dental. Já o alinhador invisível consiste em placas transparentes
+                            removíveis que são trocadas periodicamente. Ambos são eficazes, mas a escolha depende do
+                            caso clínico, idade do paciente e preferência estética. Nossos ortodontistas podem indicar a
+                            melhor opção para você.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Com que frequência devo ir ao dentista?
+                        </button>
+                    </h3>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Recomendamos visitas a cada 6 meses para check-up e limpeza profissional. Pacientes com
+                            problemas periodontais ou em tratamento ortodôntico podem necessitar de visitas mais
+                            frequentes, conforme orientação do dentista. Manter essa periodicidade ajuda a prevenir
+                            problemas e manter sua saúde bucal em dia.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agendamento -->
+    <section id="agendamento" class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold mb-3">Agende sua avaliação gratuita</h2>
+                    <p class="lead mb-4">Estamos prontos para cuidar do seu sorriso com excelência e carinho.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-phone-alt me-3"></i>
+                        <div>
+                            <h5 class="mb-0">Telefone</h5>
+                            <p class="mb-0">(11) 9999-9999</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-envelope me-3"></i>
+                        <div>
+                            <h5 class="mb-0">Email</h5>
+                            <p class="mb-0">contato@dentalcare.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-map-marker-alt me-3"></i>
+                        <div>
+                            <h5 class="mb-0">Endereço</h5>
+                            <p class="mb-0">Av. Paulista, 1000 - São Paulo/SP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="appointment-form bg-white text-dark p-4 rounded shadow">
+                        <h3 class="mb-4">Preencha o formulário</h3>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Seu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Seu email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Seu telefone" required>
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-select" required>
+                                    <option value="" selected disabled>Selecione o serviço</option>
+                                    <option>Consulta de Avaliação</option>
+                                    <option>Clareamento Dental</option>
+                                    <option>Ortodontia</option>
+                                    <option>Implante Dentário</option>
+                                    <option>Limpeza Profissional</option>
+                                    <option>Outros</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Mensagem (opcional)"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar Agendamento</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="display-5 fw-bold">Nossa Localização</h2>
+                <p class="lead">Venha nos visitar em nossa clínica</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="map-container ratio ratio-16x9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197584455882!2d-46.6586759844076!3d-23.5613462673579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+                            allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3 class="mb-4">Horário de Funcionamento</h3>
+                        <ul class="list-unstyled">
+                            <li class="d-flex justify-content-between py-2 border-bottom">
+                                <span>Segunda a Sexta</span>
+                                <span>08:00 - 19:00</span>
+                            </li>
+                            <li class="d-flex justify-content-between py-2 border-bottom">
+                                <span>Sábado</span>
+                                <span>09:00 - 14:00</span>
+                            </li>
+                            <li class="d-flex justify-content-between py-2">
+                                <span>Domingo</span>
+                                <span>Fechado</span>
+                            </li>
+                        </ul>
+
+                        <h3 class="mt-5 mb-4">Entre em Contato</h3>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-phone-alt mt-1 me-3"></i>
+                            <div>
+                                <h5 class="mb-1">Telefone</h5>
+                                <p class="mb-0">(11) 9999-9999</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-envelope mt-1 me-3"></i>
+                            <div>
+                                <h5 class="mb-1">Email</h5>
+                                <p class="mb-0">contato@dentalcare.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start">
+                            <i class="fas fa-map-marker-alt mt-1 me-3"></i>
+                            <div>
+                                <h5 class="mb-1">Endereço</h5>
+                                <p class="mb-0">Av. Paulista, 1000 - São Paulo/SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="./Imagens/clinica-dental.jpg" alt="DentalCare" height="40" class="mb-3">
+                    <p>Transformando sorrisos e melhorando a qualidade de vida através de tratamentos odontológicos de
+                        excelência.</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-4">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#inicio" class="text-white">Início</a></li>
+                        <li class="mb-2"><a href="#servicos" class="text-white">Serviços</a></li>
+                        <li class="mb-2"><a href="#sobre" class="text-white">Sobre Nós</a></li>
+                        <li class="mb-2"><a href="#equipe" class="text-white">Equipe</a></li>
+                        <li><a href="#contato" class="text-white">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-4">Serviços</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white">Clareamento Dental</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Ortodontia</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Implante Dentário</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Prótese Dentária</a></li>
+                        <li><a href="#" class="text-white">Limpeza Profissional</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="mb-4">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 d-flex align-items-start">
+                            <i class="fas fa-map-marker-alt mt-1 me-2"></i>
+                            <span>Av. Paulista, 1000 - São Paulo/SP</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start">
+                            <i class="fas fa-phone-alt mt-1 me-2"></i>
+                            <span>(11) 9999-9999</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-start">
+                            <i class="fas fa-envelope mt-1 me-2"></i>
+                            <span>contato@dentalcare.com</span>
+                        </li>
+                        <li class="d-flex align-items-start">
+                            <i class="fas fa-clock mt-1 me-2"></i>
+                            <span>Seg-Sex: 8h-19h | Sáb: 9h-14h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 DentalCare. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3">Política de Privacidade</a>
+                    <a href="#" class="text-white">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link JavaScript -->
+     <script src="./js/main.js"></script>
+
+    <!-- Botão Voltar ao Topo -->
+    <a href="#home" class="back-to-top btn btn-primary rounded-circle">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
